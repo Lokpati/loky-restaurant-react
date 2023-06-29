@@ -7,6 +7,7 @@ const headerElement = React.createElement(
   "Hello Loky (using React.createElement)"
 );
 
+const headerElementJSX = <h1 id="headerElement">Hello, "JSX"</h1>;
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(headerElement);
+root.render(headerElementJSX);

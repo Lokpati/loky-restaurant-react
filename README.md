@@ -40,3 +40,11 @@
     }
 - npm run start = npm start
 - npm run build (in this case "run" keywords needs to be there to build)
+
+# JSX
+
+- Different than html
+- It is html like syntax
+- It is (transpiled by parcel) converted to code which is understood by the browser
+- parcel gives this job to "Babel package" (it is js compiler / transpiler)
+  - takes jsx and converts it to code which is understood by the react
