@@ -22,9 +22,13 @@ const Header = () => {
   );
 };
 
+const styleCard = {
+  backgroundColor: "#f0f0f0",
+};
+
 const RestaurantCard = () => {
   return (
-    <div className="res-card">
+    <div className="res-card" style={styleCard}>
       <h3>McDonald's</h3>
     </div>
   );
