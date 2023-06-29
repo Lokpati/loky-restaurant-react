@@ -69,3 +69,7 @@
 
 - <React.Fragment> this beahaves like empty tag <React.Fragment>
 - it allows to have multiple element inside it
+
+# Props
+
+- its just normal arguments
