@@ -48,3 +48,4 @@
 - It is (transpiled by parcel) converted to code which is understood by the browser
 - parcel gives this job to "Babel package" (it is js compiler / transpiler)
   - takes jsx and converts it to code which is understood by the react
+- Attribute is written in "camelCase"
