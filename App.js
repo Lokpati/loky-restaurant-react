@@ -1,5 +1,8 @@
-const root = document.getElementById("root");
+import React from "react";
+import ReactDOM from "react-dom/client";
 
-const element = `<h1>Loky Food Ordering</h1>`;
+const parent = <h1>Loky Food Ordering App</h1>;
 
-root.innerHTML = element;
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(parent);
