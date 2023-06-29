@@ -29,3 +29,14 @@
 # Browser Compatibilty
 
 - "last 10 versions" this ensures that it will definitely work in last 10 versions , but it does not mean that it will not work in other older browser versions.
+
+# Production Buld
+
+- Add "build":"parcel build index.html" in package.json
+  - "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+    }
+- npm run start = npm start
+- npm run build (in this case "run" keywords needs to be there to build)
