@@ -58,3 +58,14 @@
 - Component should always be Capital Case
 - Component returns some jsx element or or react element
 - Everything in react is component (header , button , etc)
+- { } inside jsx , any code of js can be run
+- it does data sanization , so it prevents malicous attack
+
+# Component Composition
+
+- Nested Component
+
+# React Fragment
+
+- <React.Fragment> this beahaves like empty tag <React.Fragment>
+- it allows to have multiple element inside it
