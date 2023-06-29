@@ -49,3 +49,12 @@
 - parcel gives this job to "Babel package" (it is js compiler / transpiler)
   - takes jsx and converts it to code which is understood by the react
 - Attribute is written in "camelCase"
+
+# React Components
+
+- Functional Components - New
+- Class Based Components - Old
+
+- Component should always be Capital Case
+- Component returns some jsx element or or react element
+- Everything in react is component (header , button , etc)
