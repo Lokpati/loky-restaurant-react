@@ -1,8 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const parent = <h1>Loky Food Ordering App</h1>;
+const headerElement = React.createElement(
+  "h1",
+  { id: "headerName" },
+  "Hello Loky (using React.createElement)"
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent);
+root.render(headerElement);
