@@ -78,6 +78,9 @@
 
 - const [state,setState] = useState(defaultValue);
 - Whenever state valriable updates, React re-renders component;
+- Always call this inside body of component
+- it should always be called on top
+- Never use this inside if condition
 
 # Reconsilation Algorithm (React Fiber)
 
@@ -97,3 +100,7 @@
 - Empty Dependancy array , useEffect called only once
 
 # Shimmer UI for better user experience
+
+# React Router DOM
+
+- npm install react-router-dom
