@@ -62,3 +62,7 @@
     margin: 5px;
     cursor: pointer;
 }
+
+.filter {
+    display: flex;
+}
