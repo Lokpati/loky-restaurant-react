@@ -84,12 +84,14 @@
 - React created virtual DOM
 - Actual DOM <div>,<img>
 - Virtual is a representation of the actual DOM
-- Virtual DOM is basically the object which represent the actual DOM 
+- Virtual DOM is basically the object which represent the actual DOM
 - Diff Algorithm
-  - It finds the difference between Old And New  virtual DOM and then updates the actual DOM
+  - It finds the difference between Old And New virtual DOM and then updates the actual DOM
   - This makes React Faster
 
 # useEffect Hooks
 
 - useEffect(()=>{console.log("useEffect Called")},[dependancy])
 - This is called after component is rendered and called after dependancy is fullfilled
+
+# Shimmer UI for better user experience
