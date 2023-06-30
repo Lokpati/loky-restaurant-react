@@ -1,4 +1,5 @@
 import RestaurantCard from "./RestaurantCard";
+import { useState } from "react";
 
 const Body = () => {
   let listOfRestaurants = [
@@ -41,6 +42,9 @@ const Body = () => {
       },
     },
   ];
+
+  const [listRestaurants, setListRestaurants] = useState(listOfRestaurants);
+
   return (
     <div className="body">
       <div className="filter">
@@ -49,18 +53,18 @@ const Body = () => {
           onClick={() => {
             // Filter logic here
 
-            listOfRestaurants = listOfRestaurants.filter((res) => {
+            const filteredRestaurantsList = listOfRestaurants.filter((res) => {
               return res.data.avgRating >= 5;
             });
 
-            console.log(listOfRestaurants);
+            setListRestaurants(filteredRestaurantsList);
           }}
         >
           Top Rated Restaurants
         </button>
       </div>
       <div className="res-container">
-        {listOfRestaurants.map((restaurant) => (
+        {listRestaurants.map((restaurant) => (
           <RestaurantCard key={restaurant.data.id} resData={restaurant} />
         ))}
       </div>
