@@ -73,3 +73,7 @@
 # Props
 
 - its just normal arguments
+
+# useState Hooks
+
+- const [value,setValue] = useState(defaultValue);
