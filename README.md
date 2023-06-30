@@ -93,5 +93,7 @@
 
 - useEffect(()=>{console.log("useEffect Called")},[dependancy])
 - This is called after component is rendered and called after dependancy is fullfilled
+- if no dependancy is provided then it is called on each render of that component
+- Empty Dependancy array , useEffect called only once
 
 # Shimmer UI for better user experience
