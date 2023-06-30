@@ -85,8 +85,6 @@
 - Actual DOM <div>,<img>
 - Virtual is a representation of the actual DOM
 - Virtual DOM is basically the object which represent the actual DOM 
-
-# Diff Algorithm
-
-- It finds the difference between Old And New  virtual DOM and then updates the actual DOM
-- This makes React Faster
+- Diff Algorithm
+  - It finds the difference between Old And New  virtual DOM and then updates the actual DOM
+  - This makes React Faster
