@@ -1,49 +1,9 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState } from "react";
+import resList from "../utils/mockData";
 
 const Body = () => {
-  let listOfRestaurants = [
-    {
-      type: "restaurant",
-      data: {
-        id: "153030",
-        name: "Vishal Chinese",
-        cloudinaryImageId: "gcrqiuwxfawcou6dvzac",
-        cuisines: ["Chinese"],
-        costForTwo: 50000,
-        deliveryTime: 19,
-        avgRating: 3.8,
-      },
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "153031",
-        name: "McDonald",
-        cloudinaryImageId: "gcrqiuwxfawcou6dvzac",
-        cuisines: ["Chinese,Burger"],
-        costForTwo: 50000,
-        deliveryTime: 19,
-        avgRating: 4,
-      },
-    },
-    {
-      type: "restaurant",
-      data: {
-        type: "F",
-        id: "153033",
-        name: "Burger King",
-        cloudinaryImageId: "gcrqiuwxfawcou6dvzac",
-        cuisines: ["Chinese,Burger"],
-        costForTwo: 50000,
-        deliveryTime: 19,
-        avgRating: 5,
-      },
-    },
-  ];
-
-  const [listRestaurants, setListRestaurants] = useState(listOfRestaurants);
+  const [listRestaurants, setListRestaurants] = useState(resList);
 
   return (
     <div className="body">
@@ -53,11 +13,11 @@ const Body = () => {
           onClick={() => {
             // Filter logic here
 
-            const filteredRestaurantsList = listOfRestaurants.filter((res) => {
-              return res.data.avgRating >= 5;
+            const filteredList = listRestaurants.filter((res) => {
+              return res.data.avgRating >= 4;
             });
 
-            setListRestaurants(filteredRestaurantsList);
+            setListRestaurants(filteredList);
           }}
         >
           Top Rated Restaurants

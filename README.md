@@ -76,4 +76,17 @@
 
 # useState Hooks
 
-- const [value,setValue] = useState(defaultValue);
+- const [state,setState] = useState(defaultValue);
+- Whenever state valriable updates, React re-renders component;
+
+# Reconsilation Algorithm (React Fiber)
+
+- React created virtual DOM
+- Actual DOM <div>,<img>
+- Virtual is a representation of the actual DOM
+- Virtual DOM is basically the object which represent the actual DOM 
+
+# Diff Algorithm
+
+- It finds the difference between Old And New  virtual DOM and then updates the actual DOM
+- This makes React Faster
