@@ -104,3 +104,13 @@
 # React Router DOM
 
 - npm install react-router-dom
+
+# useRouteError
+
+- it is used to handle the error and it helps us in understaning the status and statusText
+
+# children Routes
+
+# Outlet is used to dynamically load component which are defined by children routes
+
+# Link Component
