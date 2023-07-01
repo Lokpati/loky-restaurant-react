@@ -111,7 +111,7 @@
 
 # children Routes
 
-# Outlet is used to dynamically load component which are defined by children routes
+- Outlet is used to dynamically load component which are defined by children routes
 
 # Link Component
 
