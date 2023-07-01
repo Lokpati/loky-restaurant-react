@@ -126,3 +126,5 @@
 - super to be used manadatory to inherit to the property from React Component
 - to set state varitables
   - this.state = {key:value}
+- Never update state variables directly
+- this.setState({key:newValue})
