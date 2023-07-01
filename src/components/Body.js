@@ -21,6 +21,7 @@ const Body = () => {
 
     setListRestaurants(json?.data?.cards[2]?.data?.data?.cards);
     setFilteredRestaurants(json?.data?.cards[2]?.data?.data?.cards);
+    // setListRestaurants([]);
   };
 
   return listRestaurants.length === 0 ? (
