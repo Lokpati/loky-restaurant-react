@@ -5,6 +5,7 @@ const Contact = () => {
     <div>
       <h1>This is Contact Us Page </h1>
       <UserClass name={"Lokpati"} location={"Mumbai"} />
+      <UserClass name={"Lokpati"} location={"Mumbai"} />
     </div>
   );
 };

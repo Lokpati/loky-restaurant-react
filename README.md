@@ -129,7 +129,7 @@
 - Never update state variables directly
 - this.setState({key:newValue})
 
-# Life Cycle Class based Components
+# Life Cycle Class based Components (https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 - Constructor()
 - render()
