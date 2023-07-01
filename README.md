@@ -113,6 +113,8 @@
 
 - Outlet is used to dynamically load component which are defined by children routes
 
+# useParams()
+
 # Link Component
 
 # 2 Types of Routing in web apps
@@ -141,8 +143,10 @@
 
 useEffect(()=>{
 
-return ()=>{
-console.log('this is called when component is unmounted);
-}
+    return ()=>{
+    console.log('this is called when component is unmounted);
+    }
 
 })
+
+# useCustomHook
