@@ -3,8 +3,8 @@ import React from "react";
 const User = (props) => {
   return (
     <div className="user-card">
-      <div>Name: {props.name}</div>
-      <div>Location: {props.location}</div>
+      <h1>Name: {props.name}</h1>
+      <h2>Location: {props.location}</h2>
     </div>
   );
 };
