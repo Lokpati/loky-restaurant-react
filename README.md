@@ -114,3 +114,8 @@
 # Outlet is used to dynamically load component which are defined by children routes
 
 # Link Component
+
+# 2 Types of Routing in web apps
+
+- Client Side
+- Server Side
