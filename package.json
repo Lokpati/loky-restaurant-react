@@ -1,6 +1,7 @@
 {
   "name": "loky-restaurant",
   "version": "1.0.0",
+  "homepage": "https://www.mainebolatha.fun/food-ordering/",
   "description": "App to order foods from various restaurants listed on the site",
   "scripts": {
     "start": "npx parcel index.html",
@@ -22,7 +23,6 @@
   "bugs": {
     "url": "https://github.com/Lokpati/loky-restaurant-react/issues"
   },
-  "homepage": "https://github.com/Lokpati/loky-restaurant-react#readme",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
