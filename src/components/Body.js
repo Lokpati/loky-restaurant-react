@@ -60,7 +60,7 @@ const Body = () => {
               return res.data.avgRating >= 4;
             });
 
-            setListRestaurants(filteredList);
+            setFilteredRestaurants(filteredList);
           }}
         >
           Top Rated Restaurants
