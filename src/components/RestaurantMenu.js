@@ -11,8 +11,15 @@ const RestaurantMenu = () => {
 
   const { name, cuisines } = resInfo?.cards[0]?.card?.card?.info;
 
-  const { itemCards } =
-    resInfo?.cards[2]?.groupedCard?.cardGroupMap?.REGULAR?.cards[1].card.card;
+  let itemCardsDetails =
+    resInfo.cards[2].groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+
+  if (itemCardsDetails == undefined) {
+    itemCardsDetails =
+      resInfo.cards[3].groupedCard?.cardGroupMap?.REGULAR?.cards[1]?.card?.card;
+  }
+
+  const { itemCards } = itemCardsDetails;
 
   return (
     <div>
