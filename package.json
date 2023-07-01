@@ -4,6 +4,7 @@
   "description": "App to order foods from various restaurants listed on the site",
   "scripts": {
     "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
     "test": "jest"
   },
   "repository": {
