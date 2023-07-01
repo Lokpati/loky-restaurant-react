@@ -136,3 +136,13 @@
 - componentDidMount()
   - we can perform actions to be performed after rendering inside componentDidMount
   - action like API Calls
+
+# use Effect
+
+useEffect(()=>{
+
+return ()=>{
+console.log('this is called when component is unmounted);
+}
+
+})
