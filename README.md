@@ -150,3 +150,7 @@ useEffect(()=>{
 })
 
 # useCustomHook
+
+# chunking , code splitting , on demand load, dynmaic bundling
+
+- lazy loading using Suspense
