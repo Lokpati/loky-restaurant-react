@@ -119,3 +119,8 @@
 
 - Client Side
 - Server Side
+
+# Class based component
+
+- constructor to be called in class component
+- super to be used manadatory to inherit to the property from React Component
