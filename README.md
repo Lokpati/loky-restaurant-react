@@ -124,3 +124,5 @@
 
 - constructor to be called in class component
 - super to be used manadatory to inherit to the property from React Component
+- to set state varitables
+  - this.state = {key:value}
