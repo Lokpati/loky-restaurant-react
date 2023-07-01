@@ -128,3 +128,11 @@
   - this.state = {key:value}
 - Never update state variables directly
 - this.setState({key:newValue})
+
+# Life Cycle Class based Components
+
+- Constructor()
+- render()
+- componentDidMount()
+  - we can perform actions to be performed after rendering inside componentDidMount
+  - action like API Calls
